@@ -1,0 +1,40 @@
+.container {
+}
+.ftr__container {
+    position: relative;
+    width: 294px;
+    height: 95px;
+    padding: 0;
+    padding-bottom: 48px;
+    
+    text-align: center;
+    
+}
+
+.ftr__container::before {
+    content: '';
+    position: absolute;
+    top: -26px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #C4C4C4;
+}
+
+.ftr__text {    
+    font-weight: 500;
+    font-size: 11px;
+    line-height: calc(16 / 11);  
+}
+
+
+.logo {
+}
+
+.logo--ftr {
+    margin-top: 26px;
+ 
+}
+
+.logo__grey {
+}

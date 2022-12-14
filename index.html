@@ -5,13 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Britlex</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     
-        <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
-        <!-- <link
-          href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-          rel="stylesheet"
-        /> -->
+       
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -144,7 +142,7 @@
           <h2 class="pricing__title">Pricing</h2>
           <ul class="pricing__list">
             <li class="pricing__item">
-              <img href="./images/pricing.jpg" alt="priting" width="248"/>
+              <img src="./images/pricing-1.jpg" alt="priting" width="248"/>
               <h3 class="pricing__title__section">Self-study online course</h3>
               <p class="pricing__text">Start learning English online in live classes
                 with qualified EC teachers and students 
@@ -155,7 +153,7 @@
               </div>
             </li>
             <li class="pricing__item">
-              <img href="./images/pricing-2.jpg" alt="priting" width="257"/>
+              <img src="./images/priting-2.jpg" alt="priting" width="257"/>
               <h3 class="pricing__title__section">Live online classes</h3>
               <p class="pricing__text">Interactive group classes with expert 
                 teachers. Free 7-day trial</p>
@@ -165,7 +163,7 @@
                 </div>
             </li>
             <li class="pricing__item">
-              <img href="./images/pricing-3.jpg" alt="priting" width="241"/>
+              <img src="./images/priting-3.jpg" alt="priting" width="241"/>
               <h3 class="pricing__title__section">Personal Tuition</h3>
               <p class="pricing__text">Online one-to-one English tutoring – enjoy 
                 our first session for only $1</p>
@@ -177,7 +175,28 @@
           </ul>
         </div>
       </section>
+      <section class="contact">
+        <div class="container contact__container">
+          <h2 class="contact__title">Contact Us</h2>
+          <img src="./images/contact.jpg" alt="contact" width="253">
+          <p class="contact__text">Discover your current English level by 
+            taking our free online English test.
+            Sign up to our newsletter for learning tips
+            and free resource</p>
+          <form class="contact__form">
+            <label for="" class="contact__lable">
+              <input type="text" name="contact" class="contact__input" placeholder="Enter Your E-mail">
+            </label>
+          </form>
+          <button class="contact__btn" type="submit">Subscribe</button>
+        </div>
+      </section>
     </main>
-<footer></footer>
+<footer>
+  <div class="container ftr__container">
+    <a class="logo logo--ftr" href="#">Brit<span class="logo__grey">lex</span></a>
+    <p class="ftr__text">Terms and Conditions • Privacy Policy • Cookie Policy</p>
+  </div>
+</footer>
   </body>
 </html>
