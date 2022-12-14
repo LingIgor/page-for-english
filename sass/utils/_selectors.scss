@@ -1,0 +1,54 @@
+body {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: $main-color;
+background-color: $back-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+font-weight: 600;
+font-size: 48px;
+line-height: calc(72 / 48);
+color: $h-color;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;    
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 36px;
+
+
+    @media screen and (min-width: 320px) {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 39px;       
+    }
+     
+}

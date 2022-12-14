@@ -1,0 +1,47 @@
+.section {
+}
+
+.about {
+    margin-bottom: 84px;
+}
+
+.container {
+}
+
+.about__container {
+}
+
+.about__title {
+
+font-size: 24px;
+line-height: 3.33;
+
+}
+
+.about__text {
+font-size: 13px;
+line-height: calc(20 / 13);
+text-align: center;
+color: $main-color;
+}
+
+.about_list {
+    
+}
+
+.about__item {
+    text-align: center;   
+}
+
+.about__span { 
+font-weight: 600;
+font-size: 24px;
+line-height: 3.33;
+color: #2A3246;
+}
+
+.underspan {
+font-size: 15px;
+line-height: calc(22 / 15);
+
+}
